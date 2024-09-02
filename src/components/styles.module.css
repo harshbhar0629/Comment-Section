@@ -1,0 +1,33 @@
+.commentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .controls {
+            font-size: 12px;
+
+            span {
+                margin-right: 4px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .replyBox {
+        border: 1px solid black;
+        padding: 10px;
+        padding-right: 70px;
+        border-radius: 5px;
+        margin-top: 5px;
+        width: 100%;
+    }
+}
