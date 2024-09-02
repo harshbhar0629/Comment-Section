@@ -6,7 +6,6 @@ import commentsData from "./data/comments";
 import { updateComment } from "./utils/helper";
 import { useState } from "react";
 import image from "./assets/commentIcon.png";
-import Test from "./components/test"
 
 function App() {
 	const [comments, setComments] = useState(commentsData);
